@@ -1,14 +1,11 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+`pip install django`
 
+`django-admin startproject smartnotes .`
 
-Hi there! Welcome to AWS Cloud9!
+`python manage.py migrate`
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+`python manage.py runserver 0.0.0.0:8080`
 
-Happy coding!
+If you are running on AWS Cloud 9, remember to add your host to ALLOWED_HOSTS in settings.py.
+
+`django-admin startapp home`
